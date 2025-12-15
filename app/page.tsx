@@ -9,17 +9,31 @@ export default function Home() {
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-teal-600 to-blue-700 text-white py-20 md:py-32">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-4xl md:text-6xl font-extrabold mb-6">Care at Home – Because Your Life Matters</h2>
+      {/* Hero Section */}
+      <section
+        className="relative text-white py-20 md:py-32 bg-center bg-cover"
+        style={{
+          backgroundImage:
+            "linear-gradient(rgba(13,148,136,0.75), rgba(29,78,216,0.75)), url('/elderlyPeopleAndNurse.webp')",
+        }}
+      >
+        <div className="max-w-7xl mx-auto px-6 text-center relative z-10">
+          <h2 className="text-4xl md:text-6xl font-extrabold mb-6">
+            Care at Home – Because Your Life Matters
+          </h2>
           <p className="text-xl md:text-2xl mb-10 max-w-4xl mx-auto">
-            We put you, your goals and aspirations at the centre of everything we do – in partnership with your support network and community.
+            We put you, your goals and aspirations at the centre of everything we do –
+            in partnership with your support network and community.
           </p>
-          <a href="#contact" className="bg-white text-teal-700 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition">
+          <a
+            href="#contact"
+            className="inline-block bg-white text-teal-700 px-10 py-4 rounded-xl font-semibold text-lg shadow hover:bg-gray-100 transition"
+          >
             Get in Touch Today
           </a>
         </div>
       </section>
+
 
       {/* Care Gallery */}
       <section className="py-16 bg-gray-50">
