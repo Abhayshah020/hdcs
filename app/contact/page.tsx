@@ -39,12 +39,7 @@ export default function Contact() {
 
                             <div className="space-y-4 text-gray-800">
                                 <p>
-                                    📍 <strong>Suite 106</strong>, 3 Railway Parade,<br />
-                                    Burwood NSW 2134
-                                </p>
-                                <p>
-                                    📍 <strong>Suite 6</strong>, 132 Burwood Road,<br />
-                                    Burwood NSW 2134
+                                    📍 <strong>Suite 6</strong>, 247 Church Street Parramatta NSW 2150
                                 </p>
                                 <p>
                                     📞{" "}

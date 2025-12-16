@@ -55,12 +55,7 @@ export default function Footer() {
                         Contact Information
                     </h4>
                     <p className="text-sm mb-2">
-                        📍 Suite 106, 3 Railway Parade,<br />
-                        Burwood NSW 2134
-                    </p>
-                    <p className="text-sm mb-2">
-                        📍 Suite 6, 132 Burwood Road,<br />
-                        Burwood NSW 2134
+                        📍 <strong>Suite 6</strong>, 247 Church Street Parramatta NSW 2150
                     </p>
                     <p className="text-sm mb-2">
                         📞 <a href="tel:0413173504" className="hover:text-teal-400 transition">0413 173 504</a>
