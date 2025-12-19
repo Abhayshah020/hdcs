@@ -68,7 +68,7 @@ export default function About() {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
                             {/* Left Column - Profile Image */}
                             <div className="flex justify-center md:justify-start">
-                                <div className="relative w-60 h-60 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl border-1 dark:border-slate-800 bg-white dark:bg-slate-800">
+                                <div className="relative w-60 h-60 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl border-2 border-[#aaa] bg-white dark:bg-slate-800">
                                     <Image
                                         src="/director-profile.jpg"
                                         alt="Jaikiran Reddy Seelam"
@@ -86,12 +86,12 @@ export default function About() {
                                         Jaikiran Reddy Seelam
                                     </h1>
                                     <p className="text-xl text-slate-600 dark:text-slate-300 font-semibold">
-                                        Director, Holistic Recruitment Services
+                                        Director, Holistic Disability & Community Services
                                     </p>
                                 </div>
 
                                 <p className="text-lg text-slate-700 dark:text-slate-200 leading-relaxed">
-                                    Meet the visionary leader behind Holistic Recruitment Services, dedicated to advancing workforce and service solutions within the healthcare and education industries.
+                                    Meet the visionary leader behind Holistic Disability & Community Services, dedicated to advancing workforce and service solutions within the healthcare and education industries.
                                 </p>
 
                                 <div className="flex gap-4">
