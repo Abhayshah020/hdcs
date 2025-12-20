@@ -70,7 +70,9 @@ export default function Footer() {
             {/* Bottom Bar */}
             <div className="border-t border-gray-700">
                 <div className="max-w-7xl mx-auto px-6 py-4 text-center text-sm text-gray-400">
-                    © {new Date().getFullYear()} Holistic Disability & Community Services. All rights reserved.
+                    <a href="https://smsitsolutions.com.au/" className="max-w-7xl mx-auto px-6 py-4 text-center text-sm text-gray-400">
+                        © {new Date().getFullYear()} Powered by SMS IT Solutions. All rights reserved.
+                    </a>
                 </div>
             </div>
 
