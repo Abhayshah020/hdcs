@@ -104,6 +104,47 @@ export default function About() {
                     </div>
                 </section>
 
+                <section className="bg-gradient-to-r from-teal-500 to-blue-700 w-full py-16 md:py-24 px-4 md:px-8">
+                    <div className="max-w-6xl mx-auto">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
+                            <div className="flex justify-center md:justify-start">
+                                <div className="relative w-60 h-60 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl border-2 border-[#aaa] bg-white dark:bg-slate-800">
+                                    <Image
+                                        src="/manishKumarShah.jpg"
+                                        alt="Manish Kumar Shah"
+                                        fill
+                                        className="object-cover"
+                                        priority
+                                    />
+                                </div>
+                            </div>
+                            <div className="space-y-6">
+                                <div>
+                                    <h1 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-2 text-balance">
+                                        Manish Kumar Shah
+                                    </h1>
+                                    <p className="text-xl text-slate-600 dark:text-slate-300 font-semibold">
+                                        Care Manager, Holistic Disability & Community Services
+                                    </p>
+                                </div>
+
+                                <p className="text-lg text-slate-700 dark:text-slate-200 leading-relaxed">
+                                    Meet the dedicated Care Manager at Holistic Disability & Community Services, bringing nearly a decade of hands-on experience across nursing, aged care, and disability support. Since beginning his healthcare journey in 2016, Manish has been deeply committed to enhancing quality of life, dignity, and independence for individuals and families.
+                                </p>
+                                {/* <p className="text-lg text-slate-700 dark:text-slate-200 leading-relaxed">
+                                    With a strong foundation in person-centred care, he leads with empathy, integrity, and professionalism—coordinating tailored support services, guiding multidisciplinary teams, and designing meaningful care pathways aligned with individual strengths and aspirations. Passionate about inclusive communities and best-practice care solutions, Manish continues to champion choice, empowerment, and holistic wellbeing in every aspect of his work.
+                                </p> */}
+
+                                <div className="flex gap-4">
+                                    <Link href={"/contact"} className="px-6 py-2 bg-slate-900 text-white rounded-lg hover:bg-slate-800 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-100 transition-colors font-semibold">
+                                        Learn More
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 {/* PEOPLE GALLERY */}
                 <section className="py-16 bg-white">
                     <div className="max-w-7xl mx-auto px-6">
