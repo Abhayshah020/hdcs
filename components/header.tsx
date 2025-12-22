@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Header() {
@@ -5,8 +6,12 @@ export default function Header() {
         <header className="bg-white shadow-md sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
                 {/* Logo / Title */}
-                <Link href={'/'} className="text-xl md:text-xl font-bold text-teal-700">
-                    Holistic Disability & Community Services
+
+                <Link href={'/'} className="flex gap-1 items-center">
+                    <Image src='/logo.jpeg' alt="Logo" width={185} height={100} className="mx-auto" />
+                    <div className="text-l md:text-xl font-bold text-teal-700">
+                        HDCS
+                    </div>
                 </Link>
 
                 {/* Hidden checkbox for toggle */}
